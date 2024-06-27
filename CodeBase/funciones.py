@@ -146,11 +146,9 @@ def obtener_frecuencia_relativa_acumulada(fr):
         frecuencias_acumuladas.append(suma)
     return frecuencias_acumuladas
 
-import math
-import numpy as np
+
 
 import numpy as np
-
 def calcular_estadisticas_intervalos(numeros):
 
   # Cálculo del rango
@@ -261,7 +259,8 @@ def generar_histograma(marcas_clase, frecuencia, clases_sorted, labelx, labely, 
     # Mostrar el gráfico
     plt.show()
 
-    import matplotlib.pyplot as plt
+    
+import matplotlib.pyplot as plt
 def generar_ojiva(marcas_clase, frecuencia_relativa_acumulada, clases_sorted, labelx, labely, titulo):
     plt.figure(figsize = (12, 6)) # (ancho, alto) del grafico
     frecuencia = frecuencia_relativa_acumulada # Datos del eje y
